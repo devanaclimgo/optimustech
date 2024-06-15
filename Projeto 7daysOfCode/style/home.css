@@ -1,0 +1,26 @@
+.home {
+  margin: 4rem 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align:  center;
+}
+
+
+.home__titulo {
+  font-weight: 900;
+  color: var(--vermelho);
+  margin-bottom: 1rem;
+}
+
+.home__quest {
+color: var(--preto);
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 0.75rem;
+}
+
+.home__texto {
+  color: var(--cinza-fonte);
+  font-size: 20px;
+  font-weight: 500;
+}

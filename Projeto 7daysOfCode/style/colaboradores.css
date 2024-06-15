@@ -1,0 +1,33 @@
+.colaboradores {
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+  margin: 5rem;
+  padding: 2rem;
+  background-color: var(--vermelho-hover);
+  border-radius: 10px;
+}
+
+.colaboradores__titulo {
+  color: var(--vermelho);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.colaboradores__texto {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.colaboradores__perfil__nome {
+  font-weight: 700;
+  color: var(--preto);
+}
+
+.colaboradores__perfil__texto {
+  color: var(--cinza-fonte);
+  font-size: 14px;
+  font-weight: 500;
+}

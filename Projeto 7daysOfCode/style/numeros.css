@@ -1,0 +1,74 @@
+.numeros {
+  margin: 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.container__num {
+  display: flex;
+  margin-left: 2rem;
+  gap: 3rem;
+}
+
+.container__numeros__titulo {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--vermelho);
+}
+
+.container__numeros__sub {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--preto);
+}
+
+.container__numeros__texto {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cinza-fonte);
+}
+
+.rising__number {
+  counter-reset: count 0;
+  animation: rise 2s ease-in-out;
+}
+
+@keyframes rise {
+  0% {
+    counter-increment: count 0;
+  }
+  100% {
+    counter-increment: count var(400);
+  }
+}
+
+@keyframes rise {
+  0% {
+    counter-increment: count 0;
+  }
+  100% {
+    counter-increment: count var(100);
+  }
+}
+
+@keyframes rise {
+  0% {
+    counter-increment: count 0;
+  }
+  100% {
+    counter-increment: count var(20);
+  }
+}
+
+@keyframes rise {
+  0% {
+    counter-increment: count 0;
+  }
+  100% {
+    counter-increment: count var(500);
+  }
+}
+
+.rising__number1::after {
+  content: counter(count);
+}

@@ -1,0 +1,34 @@
+@import url("style/cabecalho.css");
+@import url("style/home.css");
+@import url("style/numeros.css");
+@import url("style/procurando.css");
+@import url("style/animations.js");
+@import url("style/colaboradores.css");
+@import url("style/rodape.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --fonte: "Inter", sans-serif;
+  --branco: #ffff;
+  --vermelho: #8e2424;
+  --cinza-fonte: #667085;
+  --cinza: #f9fafb;
+  --preto: #101828;
+  --preto-fonte: #3a404e;
+  --vermelho-claro: #c31919;
+  --vermelho-hover: rgba(142, 36, 36, 0.05);
+  --cinza-hover: #C0C3C4;
+  --cinza-borda: #eaecf0;
+  --cinza-escuro: #98A2B3;
+  --cinza-claro: #D0D5DD;
+}
+
+body {
+  background-color: var(--branco);
+  font-size: 16px;
+  font-family: var(--fonte);
+}
