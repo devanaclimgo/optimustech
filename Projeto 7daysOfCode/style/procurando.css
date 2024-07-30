@@ -8,11 +8,11 @@
 .procurando__sub {
   color: var(--vermelho);
   background-color: var(--vermelho-hover);
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 15px;
-  margin: 0 23rem;
   font-size: 14px;
   font-weight: 500px;
+  width: auto;
 }
 
 .procurando__titulo {
@@ -34,11 +34,11 @@
 }
 
 .vagas__titulo {
-font-size: 20px;
-font-weight: 700;
-color: var(--preto);
-margin-bottom: 1rem;
-margin-top: 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--preto);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .container__vagas {

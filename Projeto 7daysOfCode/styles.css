@@ -1,9 +1,10 @@
-@import url("style/cabecalho.css");
-@import url("style/home.css");
-@import url("style/numeros.css");
-@import url("style/procurando.css");
-@import url("style/colaboradores.css");
-@import url("style/rodape.css");
+@import url("./style/cabecalho.css");
+@import url("./style/home.css");
+@import url("./style/numeros.css");
+@import url("./style/procurando.css");
+@import url("./style/colaboradores.css");
+@import url("./style/rodape.css");
+@import url("./style/responsivo.css");
 
 * {
   padding: 0;
@@ -30,4 +31,7 @@ body {
   background-color: var(--branco);
   font-size: 16px;
   font-family: var(--fonte);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }

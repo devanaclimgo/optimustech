@@ -1,11 +1,12 @@
 .numeros {
   margin: 1rem 3rem;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .container__num {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-left: 2rem;
   gap: 3rem;
 }
